@@ -1,0 +1,170 @@
+*{
+     padding: 0;
+     margin: 0;
+     /* background-color:  rgba(229,236, 239, 0.788); */
+}
+
+.left{
+    position: relative;
+    display: inline;
+    float: left;
+    text-align: center;    
+    height: 100vh;
+    width: 40vw;
+    background-color: rgba(229, 236, 239, 0.788);
+}
+
+.logo{
+    height: 155px;
+    width: 500px;
+    margin-left: 4vw;
+    border-radius: 15px;
+    background: -moz-linear-gradient(rgb(195, 187, 242),rgb(204, 225, 244));
+
+}
+
+h1{
+    margin-top: 40vh;
+    font-size: 95px;
+    padding: 15px 10px;
+}   
+
+/* RIGHT SIDE */
+
+.right{
+    background-color: rgb(214, 220, 250) !important;
+    display: inline;
+    float: right;
+    height: 100vh;
+    width: 60vw;
+}
+
+header{
+    margin: 0;
+    padding: 1px 0px 27px 0px;
+    height: 50px;
+    width: 60vw;
+    background-color: #2f409cd1 !important; 
+}
+
+nav{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+ul{
+    padding-right: 10px;
+}
+li{
+    display: inline;
+    float: right;
+    padding: 15px;
+    font-size: 20px;
+}
+
+img{
+    margin-right: 4px;
+    height: 14px;
+}
+
+#Login{
+    padding: 4px 15px 15px 15px;
+    display: inline;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 15px;
+    width: 65px;
+    background-color: rgb(255, 251, 251);
+    border-radius: 8px;
+
+}
+
+#About{
+    padding: 4px 1px 15px 15px;
+    margin-top: 10px;
+    margin-right: 18px;
+    height: 15px;
+    width: 65px;
+    background-color: rgb(255, 251, 251);
+    border-radius: 8px;
+}
+
+#Contact{
+    padding: 4px 8px 6px 15px;
+    margin-top: 10px;
+    margin-right: 16px;
+    height: 25px;
+    width: 110px;
+    background-color: rgb(255, 251, 251);
+    border-radius: 8px;
+}
+
+#Contact:hover{
+    height: 27px;
+    width: 112px;
+    background-color:gainsboro;
+    box-shadow:5px 2px 2px rgb(13,13,13);
+    transition: ease-in;
+    transition: 0.2s;
+}
+
+#About:hover{
+    height: 17px;
+    width: 67px;
+    background-color:gainsboro;
+    box-shadow:5px 2px 2px rgb(13,13,13);
+    transition: ease-in;
+    transition: 0.2s;
+}
+
+#Login:hover{
+    height: 17px;
+    width: 67px;
+    background-color:gainsboro;
+    box-shadow:5px 2px 2px rgb(13, 13, 13);
+    transition: ease-in;
+    transition: 0.2s;
+}  
+
+.link{
+    text-decoration: none;
+}
+
+.link:visited{
+    text-decoration-line: none;
+    color: black;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 50px;
+    margin-top: 130px;
+    margin-left: 105px;
+    text-decoration: underline;
+
+}
+
+p{
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 105px;
+    padding-right: 65px;
+}
+
+#social{
+    height: 25px;
+    margin-right: 15px;
+}
+
+footer{
+    float:left;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+#social:hover{
+
+    box-shadow:5px 2px 2px rgb(13,13,13);
+    transition: ease-in;
+    transition: 0.2s;
+}
